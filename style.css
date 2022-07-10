@@ -1,0 +1,76 @@
+html{
+background-image: url(./backgroundimg.jpg);
+}
+
+
+
+header{
+    background: rgba(255,255,255,0.7);
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255,255,255,0.35);
+    padding-bottom: 1%;
+}
+
+footer{
+    background: rgba(255,255,255,0.7);
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255,255,255,0.35);
+    padding-bottom: 1%;
+    display: flex;
+    justify-content: center;
+    font-family: 'Open Sans Condensed', sans-serif;
+    padding-top: 1%;
+}
+
+nav{
+    padding-top: 2vh;
+    justify-content: right;
+    display: flex;
+    margin: auto;
+    text-transform: uppercase;
+    margin-right: 30px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    
+}
+
+a{
+    margin-left: 2%;
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    color: #FF0000;
+    text-decoration: underline;
+}
+
+body{
+    background: rgba(255,255,255,0.7);
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255,255,255,0.35);
+    height: 100%;
+}
+
+p{
+    text-align: center;
+    padding-bottom: 1%;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 150%;
+}
+.list{
+    text-align: start;
+    display: flex;
+    justify-content: center;
+}
+
+.title{
+    padding-bottom: 2%;
+    margin-top: 2%;
+    font-family: 'Finlandica', sans-serif;
+    font-size: 150%;
+    padding-left: 2%;
+    text-align: center;
+}
